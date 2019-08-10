@@ -1,0 +1,16 @@
+========================================================================
+environment instance + external property sources
+admin ID: admin
+admin PASSWORD: pwpwpw1
+========================================================================
+environment instance + xml (without initializig) + external property sources
+INFO : org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationCTX.xml]
+INFO : org.springframework.context.support.GenericXmlApplicationContext - Refreshing org.springframework.context.support.GenericXmlApplicationContext@3581c5f3: startup date [Sat Aug 10 20:22:44 BST 2019]; root of context hierarchy
+INFO : org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@36f6e879: defining beans [adminConnectionID]; root of factory hierarchy
+setEnvironment()
+afterPropertiesSet()
+admin ID: admin
+admin PASSWORD: pwpwpw1
+INFO : org.springframework.context.support.GenericXmlApplicationContext - Closing org.springframework.context.support.GenericXmlApplicationContext@3581c5f3: startup date [Sat Aug 10 20:22:44 BST 2019]; root of context hierarchy
+INFO : org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@36f6e879: defining beans [adminConnectionID]; root of factory hierarchy
+destroy()
